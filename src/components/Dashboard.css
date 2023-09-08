@@ -1,0 +1,69 @@
+/* Dashboard.css */
+
+.user-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  transition: transform 0.2s ease-in-out, margin 0.2s ease-in-out;
+  margin: 5px 5px 10px 5px;
+}
+
+.user-card-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.user-card-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.user-card:hover {
+  transform: translateY(-5px);
+  transition: transform 0.2s ease-in-out;
+}
+
+.user-card a {
+  color: #2196f3;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.user-card a:hover {
+  color: #1565c0;
+}
+
+.user-card h5 {
+  margin-bottom: 8px;
+}
+
+.user-card p {
+  color: #666;
+}
+
+.MuiCardContent-root {
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.MuiButton-root {
+  margin-top: 20px !important;
+  margin-left: 0px !important;
+  margin-right: 20px !important;
+}
+
+.MuiGrid-item {
+  padding: 10px;
+}
+
+h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 16px;
+  margin-left: 20px;
+}
